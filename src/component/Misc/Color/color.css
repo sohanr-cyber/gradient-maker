@@ -1,0 +1,28 @@
+.color__container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  padding: 3px 5px;
+  border-radius: 7px;
+}
+
+
+
+.color__input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+
+}
+
+.color__input::-webkit-color-swatch {
+  border-radius: 5px;
+  border: none;
+}

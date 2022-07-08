@@ -1,0 +1,81 @@
+.box {
+  display: flex;
+  align-items: center;
+  /* gap: 35px; */
+  /* margin-left: 35px; */
+  /* padding: 6px 0px; */
+  /* padding-left: 35px; */
+  justify-content: space-between;
+  position: relative;
+}
+
+.box input {
+  height: 100%;
+  border: 1px solid lightgrey;
+  width: 100%;
+  border-radius: 7px;
+  padding: 12px 6px;
+  min-width: 170px;
+  max-width: 170px;
+  padding-left: 45px;
+}
+
+.box input:hover {
+  border: 1px solid lightgrey;
+}
+
+.box input:focus {
+  border: 1px solid lightgrey;
+}
+
+.selection {
+  border-left: 1px solid lightgrey;
+  /* padding: 6px 0; */
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.options {
+  position: absolute;
+  top: 40px;
+  right: -12px;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+  min-width: 50px;
+  z-index: 99;
+}
+
+@media (max-width: 920px) {
+  .box input {
+    height: 100%;
+    border: 1px solid lightgrey;
+    width: 100%;
+    border-radius: 7px;
+    padding: 12px 6px;
+    min-width: 100px;
+    max-width: 140px;
+    padding-left: 45px;
+  }
+}
+
+
+@media (max-width: 1070px) {
+  .box input {
+    height: 100%;
+    border: 1px solid lightgrey;
+    width: 100%;
+    border-radius: 7px;
+    padding: 12px 6px;
+    min-width: 100px;
+    max-width: 140px;
+    padding-left: 45px;
+  }
+}

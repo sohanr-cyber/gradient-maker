@@ -1,0 +1,21 @@
+.card {
+  border-radius: 5px;
+  padding: 5px;
+  background-color:white;
+  z-index: 9999;
+}
+
+
+.item {
+  padding: 3px;
+  border-radius: 7px;
+  min-width: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item:hover {
+  background-color: rgb(230, 230, 230);
+}

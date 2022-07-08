@@ -1,0 +1,13 @@
+.nav__wrapper {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.nav__wrapper .nav__logo {
+  font-weight: bold;
+  font-size: 150%;
+  color: rgb(46, 125, 251);
+}
