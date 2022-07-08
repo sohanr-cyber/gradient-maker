@@ -4,6 +4,7 @@ import Color from "../Misc/Color/Color";
 import Position from "../Misc/Position/Position";
 import Slider from "../Slider/Slider";
 import AddIcon from "@mui/icons-material/Add";
+import CloseIcon from "@mui/icons-material/Close";
 
 const Main = () => {
   const [colors, setColors] = useState([
@@ -208,7 +209,12 @@ const Main = () => {
 
       {code && (
         <div className="code__container">
-          <div className="code">{code}</div>
+          <div className="code">
+            <div className="code__border"> {code}</div>
+            <div className="code__close" onClick={() => setCode(null)}>
+              <CloseIcon />
+            </div>
+          </div>
         </div>
       )}
     </div>
