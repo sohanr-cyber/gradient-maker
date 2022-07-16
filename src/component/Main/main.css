@@ -102,7 +102,7 @@
   height: 100%;
   width: 100%;
 
-  padding:3px
+  padding: 3px;
 }
 
 .code {
@@ -174,5 +174,23 @@
 
   .main__right__top {
     display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    max-width: 130px;
+  }
+  .main__grids__item {
+    min-width: 140px;
+  }
+}
+
+@media (max-width: 380) {
+  .btn {
+    max-width: 125px;
+  }
+  .main__grids__item {
+    min-width: 130px;
   }
 }

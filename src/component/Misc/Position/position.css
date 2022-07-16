@@ -12,7 +12,7 @@
 .box input {
   height: 100%;
   border: 1px solid lightgrey;
-  width: 100%;
+  /* width: 100%; */
   border-radius: 7px;
   padding: 12px 6px;
   min-width: 170px;
@@ -53,29 +53,46 @@
   z-index: 99;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1070px) {
   .box input {
-    height: 100%;
-    border: 1px solid lightgrey;
-    width: 100%;
-    border-radius: 7px;
-    padding: 12px 6px;
     min-width: 100px;
     max-width: 140px;
     padding-left: 45px;
   }
 }
 
-
-@media (max-width: 1070px) {
+@media (max-width: 920px) {
   .box input {
-    height: 100%;
-    border: 1px solid lightgrey;
-    width: 100%;
-    border-radius: 7px;
-    padding: 12px 6px;
     min-width: 100px;
     max-width: 140px;
     padding-left: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    display: flex;
+    align-items: center;
+
+    justify-content: flex-start;
+    position: relative;
+    max-width: 120px;
+  }
+
+  .box input {
+    width: 100%;
+    padding-left: 25px;
+  }
+
+  .selection {
+    /* padding: 6px 0; */
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+
+    top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
